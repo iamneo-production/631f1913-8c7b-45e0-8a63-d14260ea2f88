@@ -8,5 +8,6 @@ import com.examly.springapp.entities.Team;
 @Repository
 public interface TeamRepository extends JpaRepository<Team, Long> {
     // Custom query methods (if required)
+    public abstract void hello();
 }
 
